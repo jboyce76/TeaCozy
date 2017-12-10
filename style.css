@@ -57,9 +57,12 @@ a {
   margin: auto;
   padding-top: 69px;
   position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
-.container {
+/* properties mission section */
+#mission.container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -71,3 +74,35 @@ a {
 #mission .content {
   background-color: black;
  }
+
+ /* properties for featured teas section */
+#featured.container {
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+/* properties for items inside featured teas section */
+.items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
