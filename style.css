@@ -133,3 +133,17 @@ a {
   margin: 0px;
   padding: 10px;
 }
+
+/* properties for contact information section */
+.contact {
+  display: inline-block;
+  flex-direction: column;
+  overflow: auto;
+  height: 200px;
+}
+
+/* properties for footer */
+footer {
+  padding-left: 20px;
+  text-align: left;
+}
