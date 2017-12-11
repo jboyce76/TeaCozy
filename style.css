@@ -127,6 +127,7 @@ a {
   background-color: black;
   width: 300px;
   margin: 15px 20px;
+  opacity: 1;
 }
 
 #locations h2 {
